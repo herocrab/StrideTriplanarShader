@@ -18,7 +18,7 @@ Hierarchy:
                     c138f9d29acbc6715d553a1de99ba460: !TransformComponent
                         Id: 7d43a107-648b-41ea-a177-9cea99f84b70
                         Position: {X: 30.0, Y: 16.0, Z: 0.0}
-                        Rotation: {X: -0.194905058, Y: 0.6797146, Z: 0.194905043, W: 0.6797147}
+                        Rotation: {X: -0.19490506, Y: 0.6797146, Z: 0.19490504, W: 0.6797147}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     3b5d508683cc14c571e2cebdbb6b882b: !CameraComponent
@@ -43,7 +43,7 @@ Hierarchy:
                     1b5cb1ac429c4ea671fa65bb50b9a2af: !TransformComponent
                         Id: f2d1cfda-c539-4f9a-973f-d0f894282aac
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.382683456, Z: 0.0, W: 0.9238795}
+                        Rotation: {X: 0.0, Y: 0.38268346, Z: 0.0, W: 0.9238795}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     04c163fe69b8e9645c290714c2cea1b8: !ModelComponent
@@ -58,7 +58,7 @@ Hierarchy:
                     cacf9610d0e45c991459447e39d5fa92: !TransformComponent
                         Id: 34e54068-cbb6-435d-83b4-699ff522d7f1
                         Position: {X: 0.0, Y: 2.0, Z: 0.0}
-                        Rotation: {X: -0.2681457, Y: 0.138290316, Z: 0.171618834, W: 0.937827468}
+                        Rotation: {X: -0.2681457, Y: 0.13829032, Z: 0.17161883, W: 0.93782747}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     9aec3e6205fe4e289bac1a0751515a8e: !LightComponent
@@ -83,7 +83,7 @@ Hierarchy:
                     c1e23eabfd51a9cdd49afe515592b69f: !TransformComponent
                         Id: 12686757-7638-4c8a-a496-1d31f69441d5
                         Position: {X: 0.0, Y: 2.0, Z: -2.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.2861065, W: 0.958197832}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.2861065, W: 0.95819783}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     0815fea27779b8b741fca64c2dbed804: !BackgroundComponent

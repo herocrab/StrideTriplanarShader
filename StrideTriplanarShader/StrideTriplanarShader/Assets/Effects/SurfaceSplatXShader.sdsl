@@ -5,7 +5,6 @@ namespace StrideWars
 		override float4 Compute()
 		{	
 			var normal = streams.meshNormal.x;
-			var zNormal = streams.meshNormal.z;
 			if (normal > Cutoff) {
 				return float4(1, 0, 0, 1);
 			} 
