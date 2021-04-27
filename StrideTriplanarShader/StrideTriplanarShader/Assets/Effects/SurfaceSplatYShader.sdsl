@@ -1,0 +1,20 @@
+namespace StrideWars
+{
+	shader SurfaceSplatYShader<float Strength, float Cutoff, float BlendDistance> : ComputeColor, PositionStream4, NormalStream
+	{
+		override float4 Compute()
+		{	
+			var normal = streams.meshNormal.y;
+			if (normal > Cutoff) {
+				return float4(1, 0, 0, 1);
+			} 
+			
+			if (normal < Cutoff  && normal > Cutoff - BlendDistance) {
+				var blend = normal - (Cutoff - BlendDistance);
+				return float4(saturate(blend * Strength), 0, 0, 1);
+			}
+
+			return float4(0, 0, 0, 0);
+		}
+	};
+}

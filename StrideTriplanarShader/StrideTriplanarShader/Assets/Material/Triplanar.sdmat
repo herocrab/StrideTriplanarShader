@@ -1,0 +1,54 @@
+!MaterialAsset
+Id: 0c692410-87b3-4c17-9a0d-bc48db63e665
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Transparency: !MaterialTransparencyCutoffFeature
+        Alpha: !ComputeFloat
+            Value: 1.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers:
+    21b40c7ebecb61fa5801cba12ff9faca:
+        Material: 95c88be0-f679-4aa6-8ce4-00454d13bedf:Material/Default
+        BlendMap: !ComputeTextureScalar
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}
+    e98d5d246e050f409be97f3321b444db:
+        Material: 2d9fb9ef-e3c1-4dae-99e8-e71155a03fa3:Material/Rock2
+        BlendMap: !ComputeFloat
+            Value: 1.0
+        Overrides:
+            UVScale: {X: 10.0, Y: 10.0}
+    04b80537373f844c2f934e7fde03a8a1:
+        Material: 4bd03074-e968-47c8-acd4-61d7fe472680:Material/Rock1
+        BlendMap: !ComputeShaderClassScalar
+            MixinReference: SurfaceSplatXShader
+            Generics:
+                f7589a974c8f3ae50579b1bbf94dbec6~Strength: !ComputeColorParameterFloat
+                    Value: 3.0
+                5a602bf81e5942d0dc371761a6dcb4e0~Cutoff: !ComputeColorParameterFloat
+                    Value: 0.85
+                aedb0ebfec13e4d87dfb73d33c87f829~BlendDistance: !ComputeColorParameterFloat
+                    Value: 0.35
+            CompositionNodes: {}
+        Overrides:
+            UVScale: {X: 15.0, Y: 15.0}
+    d43643bc3370e5e37b113f35c52f690d:
+        Material: 9f785761-3732-4c3c-9602-ab67a4ebeeb9:Material/Grass
+        BlendMap: !ComputeShaderClassScalar
+            MixinReference: SurfaceSplatYShader
+            Generics:
+                9651f2f136995eb995eb081c1a630d05~Strength: !ComputeColorParameterFloat
+                    Value: 6.5
+                f59dd3bcdbd2fb460356125d01f97bec~Cutoff: !ComputeColorParameterFloat
+                    Value: 0.65
+                d04a65690881102abef3e7b8c67badc7~BlendDistance: !ComputeColorParameterFloat
+                    Value: 0.45
+            CompositionNodes: {}
+        Overrides:
+            UVScale: {X: 8.0, Y: 8.0}

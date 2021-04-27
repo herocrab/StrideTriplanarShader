@@ -1,0 +1,6 @@
+!Texture
+Id: 65b9b428-5f6d-4e23-9ef7-4cde83111c5c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Rock1/displacement.png
+Type: !GrayscaleTextureType {}

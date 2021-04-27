@@ -1,0 +1,97 @@
+!SceneAsset
+Id: 93422e86-9f5c-4505-adcd-48b2bfb31774
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 176849fe-5b6c-4c39-92ee-e2adfbe5a87f
+        - ref!! 7af46a0f-df98-47bb-8d97-8d34a68226db
+        - ref!! a42e9f6f-b32f-426f-964e-96614efa3c5d
+        - ref!! 25ca69d3-1909-4535-80cc-4ddd3b5ae7bc
+    Parts:
+        -   Entity:
+                Id: 176849fe-5b6c-4c39-92ee-e2adfbe5a87f
+                Name: Camera
+                Components:
+                    c138f9d29acbc6715d553a1de99ba460: !TransformComponent
+                        Id: 7d43a107-648b-41ea-a177-9cea99f84b70
+                        Position: {X: 30.0, Y: 16.0, Z: 0.0}
+                        Rotation: {X: -0.194905058, Y: 0.6797146, Z: 0.194905043, W: 0.6797147}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3b5d508683cc14c571e2cebdbb6b882b: !CameraComponent
+                        Id: 8cd92a2e-8a6f-41ec-8fe7-c25406829ad4
+                        Name: null
+                        Projection: Perspective
+                        VerticalFieldOfView: 40.0
+                        Slot: 8fb4a7ef-0855-41ff-addd-4905c171d6e3
+                    46396471381c54c90a53c94b4da3a75d: !StrideTriplanarShader.BasicCameraController,StrideTriplanarShader
+                        Id: ac12c205-f651-4897-82cd-6dad908b71be
+                        Gamepad: false
+                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
+                        TouchMovementSpeed: {X: 0.7, Y: 0.7, Z: 0.3}
+                        SpeedFactor: 5.0
+                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
+                        MouseRotationSpeed: {X: 1.0, Y: 1.0}
+                        TouchRotationSpeed: {X: 1.0, Y: 0.7}
+        -   Entity:
+                Id: 25ca69d3-1909-4535-80cc-4ddd3b5ae7bc
+                Name: demo_tiles
+                Components:
+                    1b5cb1ac429c4ea671fa65bb50b9a2af: !TransformComponent
+                        Id: f2d1cfda-c539-4f9a-973f-d0f894282aac
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.382683456, Z: 0.0, W: 0.9238795}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    04c163fe69b8e9645c290714c2cea1b8: !ModelComponent
+                        Id: 6021148d-1506-485f-8150-314b4e5fcbe2
+                        Model: f107c4b2-e015-46a8-a83a-28a1bd887b01:Model/demo_tiles
+                        Materials:
+                            93581ca163957dd2455ecc9f4beef09a~0: 0c692410-87b3-4c17-9a0d-bc48db63e665:Material/Triplanar
+        -   Entity:
+                Id: 7af46a0f-df98-47bb-8d97-8d34a68226db
+                Name: Directional light
+                Components:
+                    cacf9610d0e45c991459447e39d5fa92: !TransformComponent
+                        Id: 34e54068-cbb6-435d-83b4-699ff522d7f1
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: -0.2681457, Y: 0.138290316, Z: 0.171618834, W: 0.937827468}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9aec3e6205fe4e289bac1a0751515a8e: !LightComponent
+                        Id: 0f6c11f3-fbbf-457a-853a-144ff004a718
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 7.5
+        -   Entity:
+                Id: a42e9f6f-b32f-426f-964e-96614efa3c5d
+                Name: Skybox
+                Components:
+                    c1e23eabfd51a9cdd49afe515592b69f: !TransformComponent
+                        Id: 12686757-7638-4c8a-a496-1d31f69441d5
+                        Position: {X: 0.0, Y: 2.0, Z: -2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.2861065, W: 0.958197832}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0815fea27779b8b741fca64c2dbed804: !BackgroundComponent
+                        Id: 6870bf37-ff32-4145-8a20-e60d088c59d1
+                        Texture: 311ca1c9-7f0f-4c82-b738-32fb60b284a5:Environment/Skybox texture
+                        Intensity: 0.25
+                    54b9291740fe7d754788acbb9480ef14: !LightComponent
+                        Id: 240a8a35-fe45-43f5-95b5-5c54b3592dea
+                        Type: !LightSkybox
+                            Skybox: a2035b70-ee99-4881-8af2-edd66f9c63e9:Environment/Skybox
+                        Intensity: 0.5

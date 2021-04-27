@@ -1,0 +1,7 @@
+!Texture
+Id: e920df5f-b549-436e-bcac-ab24b73eeda7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Rock2/diffuse.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,6 @@
+!Texture
+Id: 8e4e72b9-4d87-403b-9e75-4c90c8f5bb02
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Rock1/specular.png
+Type: !GrayscaleTextureType {}

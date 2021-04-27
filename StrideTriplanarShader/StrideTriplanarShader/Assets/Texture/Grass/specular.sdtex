@@ -1,0 +1,6 @@
+!Texture
+Id: 4f453263-4910-48b2-8596-250a62142ccd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Grass/specular.png
+Type: !GrayscaleTextureType {}

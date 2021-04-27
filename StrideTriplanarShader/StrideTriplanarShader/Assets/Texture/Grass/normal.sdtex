@@ -1,0 +1,7 @@
+!Texture
+Id: 29e62110-8bbc-43d2-b3d8-4b512fbf4642
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Grass/normal.png
+Type: !NormalMapTextureType
+    InvertY: false

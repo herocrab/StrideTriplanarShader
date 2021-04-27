@@ -1,0 +1,6 @@
+!Texture
+Id: dc0f41d4-8b2a-4c3b-b19e-fbdc8a70adc8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Rock2/occlusion.png
+Type: !GrayscaleTextureType {}

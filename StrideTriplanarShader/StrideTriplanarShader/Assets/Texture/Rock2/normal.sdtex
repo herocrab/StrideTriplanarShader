@@ -1,0 +1,7 @@
+!Texture
+Id: 7b8eeaa7-fd7f-4f59-812b-b71beb37adcd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Rock2/normal.png
+Type: !NormalMapTextureType
+    InvertY: false

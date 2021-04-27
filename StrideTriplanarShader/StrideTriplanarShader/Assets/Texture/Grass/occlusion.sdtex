@@ -1,0 +1,6 @@
+!Texture
+Id: 82b5bbfb-f44f-4aee-8843-ae82ed0bf227
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Grass/occlusion.png
+Type: !GrayscaleTextureType {}

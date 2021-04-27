@@ -1,0 +1,7 @@
+!Texture
+Id: 3211de24-2dc8-4f8a-9de8-6601a0fe59e4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Texture/Grass/diffuse.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

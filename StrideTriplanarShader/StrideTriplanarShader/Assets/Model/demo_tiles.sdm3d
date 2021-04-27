@@ -1,0 +1,15 @@
+!Model
+Id: f107c4b2-e015-46a8-a83a-28a1bd887b01
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Model/demo_tiles.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    0fbc5afd2c8208251c834c408641d86e:
+        Name: Default
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    75b02b12b98ae96ecd3dc894a6d2e0a1~../../Resources/Model/demo_tiles.fbx: cde71e82467f7cbd81459b6581310de7
